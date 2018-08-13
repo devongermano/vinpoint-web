@@ -39,6 +39,7 @@ $vp-light-blue: #cde3f0;
   height: 100%;
   position: relative;
   width: 100%;
+  overflow: hidden;
   .foreground {
     z-index: 2;
     position: absolute;

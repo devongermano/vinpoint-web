@@ -27,6 +27,10 @@
   margin-right: auto;
 }
 
+.container-full {
+  width: 100%;
+}
+
 .row {
   position: relative;
   width: 100%;
