@@ -42,10 +42,10 @@ $vp-light-blue: #cde3f0;
   .foreground {
     z-index: 2;
     position: absolute;
-    bottom: -70px;
+    bottom: -10px;
     right: 100px;
     img {
-      height: 600px;
+      height: 450px;
     }
   }
 }
@@ -63,25 +63,31 @@ $vp-light-blue: #cde3f0;
 
 .container-large {
   width: 100%;
-  height: 600px;
+  height: 500px;
   &-top {
     @extend .container-large;
     padding-top: $header-height;
     //background: rgb(38,123,154);
     //background: linear-gradient(144deg, rgba(38,123,154,1) 16%, $vp-blue 98%);
     -webkit-background-size: inherit;
-    background-image: url(../assets/images/raster/duotone-4.png);
+    //background-image: url(../assets/images/raster/duotone-4.png);
+    background: #037fd9;
     background-repeat: no-repeat;
     background-size: cover;
     //border-bottom-left-radius: 50% 20%;
     //border-bottom-right-radius: 50% 20%;
-    overflow: hidden;
+    //overflow: hidden;
   }
+}
+
+.container-medium {
+  width: 100%;
+  height: 400px;
 }
 
 .container-small {
   width: 100%;
-  height: 250px;
+  height: 150px;
 }
 
 .container-internal {
