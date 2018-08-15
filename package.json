@@ -5,7 +5,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --target=production --no-aot --output-path=./dist/static",
+    "deploy": "gcloud app deploy --project=vinpoint-3224 dist/app.yaml",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
