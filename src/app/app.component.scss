@@ -56,3 +56,9 @@ button {
     padding: 0 0 5px 0;
   }
 }
+
+@media (max-width: 48em) {
+  .header-internal-right {
+    display: none;
+  }
+}
