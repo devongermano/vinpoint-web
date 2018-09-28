@@ -1,0 +1,21 @@
+
+<div style="display: flex; position: fixed; height: 100%; width: 100%; flex-direction: row; align-items: center; justify-content: center;">
+  <div class="magic-ball" [ngClass]="{'expanded': magicInputs[0].scoped}">
+    <input #i1 type="text" class="magic-input" (input)="setNextMagicInput(0)"  pattern= "[0-9]">
+  </div>
+  <div class="magic-ball" [ngClass]="{'expanded': magicInputs[1].scoped}">
+    <input #i2 type="text" class="magic-input" (input)="setNextMagicInput(1)" pattern= "[0-9]">
+  </div>
+  <div class="magic-ball" [ngClass]="{'expanded': magicInputs[2].scoped}">
+    <input #i3 type="text" class="magic-input" (input)="setNextMagicInput(2)" pattern= "[0-9]">
+  </div>
+  <div class="magic-ball" [ngClass]="{'expanded': magicInputs[3].scoped}">
+    <input #i4 type="text" class="magic-input" (input)="setNextMagicInput(3)" pattern= "[0-9]">
+  </div>
+  <div class="magic-ball" [ngClass]="{'expanded': magicInputs[4].scoped}">
+    <input #i5 type="text" class="magic-input" (input)="setNextMagicInput(4)" pattern= "[0-9]">
+  </div>
+  <div class="magic-ball" [ngClass]="{'expanded': magicInputs[5].scoped}">
+    <input #i6 type="text" class="magic-input" (input)="setNextMagicInput(5)" pattern= "[0-9]">
+  </div>
+</div>

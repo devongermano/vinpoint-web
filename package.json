@@ -24,6 +24,9 @@
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
     "flexboxgrid": "^6.3.1",
+    "fullpage.js": "^3.0.2",
+    "jquery": "^3.3.1",
+    "ngx-fullpage": "^4.0.6",
     "rellax": "^1.6.2",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"

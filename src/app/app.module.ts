@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {OnboardingModule} from './onboarding/onboarding.module';
+import { MainComponent } from './main/main.component';
+import {AppRoutingModule} from './app-routing.module';
+import {MnFullpageModule} from 'ngx-fullpage';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    OnboardingModule,
+    MnFullpageModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
